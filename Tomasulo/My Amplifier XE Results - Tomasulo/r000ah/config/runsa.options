@@ -1,0 +1,56 @@
+-r
+C:\Users\HungYuLin\Desktop\Tomasulo_vs2015\Tomasulo\My Amplifier XE Results - Tomasulo\r000ah
+--itt-config=frame
+--data-limit-mb=500
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=3400000,CPU_CLK_UNHALTED.REF_TSC:sa=3400000,INST_RETIRED.ANY:sa=3400000,BR_INST_RETIRED.NEAR_TAKEN:sa=200003:usr=yes:os=no:
+--bts-count=200
+--sample-after-multiplier=1.0
+--event-mux
+--collector=vtsspp
+--sys-config=cswitch
+--mrte-mode=native
+--itt-config=task,event
+--search-dir
+sym=C:\Users\HungYuLin\Desktop\Tomasulo_vs2015\Debug
+--search-dir
+sym=C:\Users\HungYuLin\Desktop\Tomasulo_vs2015
+--search-dir
+sym=srv*C:\Users\HungYuLin\AppData\Local\Temp\SymbolCache
+--search-dir
+sym=srv*https:\\msdl.microsoft.com\download\symbols
+--search-dir
+bin=C:\Users\HungYuLin\Desktop\Tomasulo_vs2015\Debug
+--search-dir
+bin=C:\Users\HungYuLin\Desktop\Tomasulo_vs2015
+--search-dir
+bin=C:/Users\HungYuLin\Desktop\Tomasulo_vs2015\Tomasulo\$(VC_ExecutablePath_x86)
+--search-dir
+bin=C:/Users\HungYuLin\Desktop\Tomasulo_vs2015\Tomasulo\$(WindowsSDK_ExecutablePath)
+--search-dir
+bin=C:/Users\HungYuLin\Desktop\Tomasulo_vs2015\Tomasulo\$(VS_ExecutablePath)
+--search-dir
+bin=C:/Users\HungYuLin\Desktop\Tomasulo_vs2015\Tomasulo\$(MSBuild_ExecutablePath)
+--search-dir
+bin=C:\Windows\SysWow64
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Team Tools\Static Analysis Tools\FxCop
+--search-dir
+bin=C:\ProgramData\Oracle\Java\javapath
+--search-dir
+bin=C:\Windows\system32
+--search-dir
+bin=C:\Windows
+--search-dir
+bin=C:\Windows\System32\Wbem
+--search-dir
+bin=C:\Windows\System32\WindowsPowerShell\v1.0
+--search-dir
+bin=C:/Users\HungYuLin\Desktop\Tomasulo_vs2015\Tomasulo\%USERPROFILE%\.dnx\bin
+--search-dir
+bin=C:\Program Files\Microsoft DNX\Dnvm
+--search-dir
+bin=C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+--search-dir
+bin=C:\Windows\SysWOW64\WindowsPowerShell\v1.0\Modules\TShell\TShell
+--
+C:\Users\HungYuLin\Desktop\Tomasulo_vs2015\Debug\Tomasulo.exe

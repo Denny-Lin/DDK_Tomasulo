@@ -49,7 +49,7 @@ Mul1: -, Free
 Register Result Status:
 F0: -, Free
 F2: -, Waiting
-```text
+```
 
 ## References
 

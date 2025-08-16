@@ -22,6 +22,7 @@ MUL.D F0, F2, F4
 SUB.D F8, F6, F2
 DIV.D F10, F0, F6
 ADD.D F6, F8, F2
+```
 
 ## Output
 
